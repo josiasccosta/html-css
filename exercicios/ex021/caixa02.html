@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0
+        }
+        header{
+            text-align: center;
+            background-color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-image: linear-gradient(to right, #595858,rgb(132, 129, 129));
+            padding-top: 7px;
+            padding-bottom: 7px;
+            text-align: left;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.861);
+        }
+        nav > a{
+            text-decoration: none;
+            font-weight: bold;
+            color: white;
+            margin: 10px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        main{
+            background-color: white;
+            border-radius: 7px;
+            padding: 10px;
+            margin: 10px;
+        }
+        section > h1{
+            text-align: center;
+            font-weight: bold;
+            font-size: 2em;
+        }
+        article {
+            background-color: lightgray;
+            text-align: justify;
+            margin: 5px;
+            padding: 10px;
+        }
+        article > h2 {
+            text-decoration: underline;
+            padding: 3px;
+        }
+        article > aside{
+            background-color: #a09b9b;
+            margin: 7px
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Montana da ré no kibe</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Novidades</a>
+            <a href="#">Esportes</a>
+            <a href="#">Corridas</a>
+            <a href="#">Sobre</a>
+        </nav>
+    </header>
+    <main>
+        <section id="Esportes">
+            <h1>Esportes</h1>
+            <article>
+                <h2>Por dentro dos esportes</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate velit quos esse reprehenderit dolorum labore, eos voluptas adipisci assumenda eum, dicta distinctio quo quaerat, fuga quam sapiente? Sapiente, impedit provident? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque nisi nihil et quisquam error nostrum suscipit possimus magnam impedit vitae. Corrupti qui ut quidem omnis, deserunt exercitationem modi ullam tempore?</p>
+                <aside>
+                    <p>Artigo escrito por Josué Pereira</p>
+                </aside>
+            </article>
+            <article>
+                <h2>Pelé morre</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio praesentium tempore eligendi aperiam, cumque et temporibus suscipit minus, voluptatibus veniam hic. Nemo libero suscipit iure ratione a excepturi inventore mollitia! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae voluptates, ab nisi illo molestias minus ea esse dicta totam odio harum ullam nihil nostrum, quod beatae consectetur molestiae optio distinctio!</p>
+                <aside>
+                    <p>Artigo escrito por Franchesca Guilhermana</p>
+                </aside>
+            </article>
+        </section>
+
+        <section id="Noticias">
+            <h1>Noticias Gerais</h1>
+            <article>
+                <h2>A mudança que o consumo aipim pode trazer a você</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At labore, hic expedita ab totam minima distinctio magni asperiores a rerum qui ut placeat? Neque in iste sint consectetur asperiores eius! Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quo exercitationem, nobis voluptate in doloribus rem quos ea numquam nisi porro modi expedita dolorum ipsa dicta consectetur! Dolor, quasi asperiores!</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo bulleta</p>
+    </footer>
+</body>
+</html>
