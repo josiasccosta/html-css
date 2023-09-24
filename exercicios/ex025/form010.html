@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Formularios</h1>
+    <form action="cadastro.php" method="post">
+        <p>
+            <label for="isas">Satisfação</label><br>
+            <input type="range" name="sas" id="isas" min="0" max="10" oninput="inum.innerHTML = Number(isas.value)" value="5">
+            <output name="num" id="inum" >5</output>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Redefinir">
+        </p>
+    </form>
+
+</body>
+</html>
