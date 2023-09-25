@@ -1,0 +1,16 @@
+
+/* Estilos para impressora */
+
+
+body{
+    background-image: url(../imagens/back-print.jpg);
+}
+
+
+main > #icon-phone{
+    display: none;
+}
+
+main > #icon-print{
+    display: block;
+}

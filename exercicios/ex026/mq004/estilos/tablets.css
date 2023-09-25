@@ -1,0 +1,20 @@
+
+/* Estilos para tablets */
+
+body{
+    background-image: url(../imagens/back-tablet.jpg);
+}
+
+
+main{
+    width: 60vw;
+}
+
+main > #icon-phone{
+    display: none;
+}
+
+main > #icon-tablet{
+    display: block;
+}
+

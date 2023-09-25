@@ -1,0 +1,18 @@
+
+/* Estilos para telas de computadores e notebooks */
+
+body{
+    background-image: url(../imagens/back-pc.jpg);
+}
+
+main{
+    width: 40vw;
+}
+
+main > #icon-phone{
+    display: none;
+}
+
+main > #icon-pc{
+    display: block;
+}

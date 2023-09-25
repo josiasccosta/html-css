@@ -1,0 +1,18 @@
+
+/* Estilo para telas grandes */
+
+body{
+    background-image: url(../imagens/back-tv.jpg);
+}
+
+main{
+    width: 30vw;
+}
+
+main > #icon-phone{
+    display: none;
+}
+
+main > #icon-tv{
+    display: block;
+}
